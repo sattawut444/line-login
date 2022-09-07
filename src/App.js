@@ -42,7 +42,7 @@ useEffect(() => {
 return (
   <div className="App">
     <header className="App-header">
-    <div className=' text-center box-whidth box-heigth'>
+    <div className=' text-center top left right bottom'>
       <h1>Line-login</h1>
       <hr/>
       <img src={pictureUrl} width="300px" height="300px"/>

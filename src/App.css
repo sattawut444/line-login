@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #fbfdff;
+  background-color: #000000;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -55,9 +55,15 @@
 .height {
   height: 30px;
 }
-.box-whidth {
-  width: 50%;
+.left {
+  margin-left: 20%;
 }
-.box-heigth {
-  height: 50%;
+.top {
+  margin-top: 20%;
+}
+.right {
+  margin-right: 20%;
+}
+.bottom {
+  margin-bottom: 20%;
 }
