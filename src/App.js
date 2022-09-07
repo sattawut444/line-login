@@ -40,7 +40,7 @@ useEffect(() => {
 }, []);
 
 return (
-  <div className="App">
+  <div className="App box-width box-heigth">
     <header className="App-header">
     <div style={{ textAlign: "center" }}>
       <h1>Line-login</h1>
