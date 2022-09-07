@@ -45,11 +45,11 @@ return (
     <div className=' text-center top left right bottom'>
       <h1>Line-login</h1>
       <hr/>
-      <img src={pictureUrl} width="300px" height="300px"/>
-      <p style={{ textAlign: "left", marginLeft: "20%", marginRight: "20%", wordBreak: "break-all" }}><b>id token: </b> {idToken}</p>
-      <p style={{ textAlign: "left", marginLeft: "20%", marginRight: "20%", wordBreak: "break-all" }}><b>display name: </b> {displayName}</p>
-      <p style={{ textAlign: "left", marginLeft: "20%", marginRight: "20%", wordBreak: "break-all" }}><b>status message: </b> {statusMessage}</p>
-      <p style={{ textAlign: "left", marginLeft: "20%", marginRight: "20%", wordBreak: "break-all" }}><b>user id: </b> {userId}</p>
+      <img src={pictureUrl} width="100px" height="100px"/>
+      <p style={{ textAlign: "left", marginLeft: "20%", marginRight: "20%", wordBreak: "break-all", fontSize: "30px" }}><b>id token: </b> {idToken}</p>
+      <p style={{ textAlign: "left", marginLeft: "20%", marginRight: "20%", wordBreak: "break-all", fontSize: "30px" }}><b>display name: </b> {displayName}</p>
+      <p style={{ textAlign: "left", marginLeft: "20%", marginRight: "20%", wordBreak: "break-all", fontSize: "30px"}}><b>status message: </b> {statusMessage}</p>
+      <p style={{ textAlign: "left", marginLeft: "20%", marginRight: "20%", wordBreak: "break-all", fontSize: "30px" }}><b>user id: </b> {userId}</p>
 
       <button onClick={() => logout()} style={{ width: "100%", height: 30 }}>Logout</button>
     </div>
