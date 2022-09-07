@@ -1,0 +1,5 @@
+LINE Developers : https://developers.line.biz/en/docs/line-login/integrate-line-login/#making-an-authorization-request
+HEROKU : https://dashboard.heroku.com/
+Github : https://github.com/sattawut444/line-login/blob/dev-w-04/src/App.js 
+	 AND https://github.com/porichigo15/lomana-line-login/blob/master/src/App.js
+PorKaew : https://por-porkaew15.medium.com/implement-line-login-with-angular-project-e2e598d3c618
