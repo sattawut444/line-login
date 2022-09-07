@@ -9,7 +9,6 @@ function App() {
   const [displayName, setDisplayName] = useState("");
   const [statusMessage, setStatusMessage] = useState("");
   const [userId, setUserId] = useState("");
-
 const logout = () => {
   liff.logout();
   window.location.reload();
@@ -48,7 +47,7 @@ return (
       <img src={pictureUrl} width="150px" height="150px"/>
       <p style={{ textAlign: "left", marginLeft: "20%", marginRight: "20%", wordBreak: "break-all", fontSize: "20px" }}><b>id token: </b> {idToken}</p>
       <p style={{ textAlign: "left", marginLeft: "20%", marginRight: "20%", wordBreak: "break-all", fontSize: "20px" }}><b>display name: </b> {displayName}</p>
-      <p style={{ textAlign: "left", marginLeft: "20%", marginRight: "20%", wordBreak: "break-all", fontSize: "20px"}}><b>status message: </b> {statusMessage}</p>
+      <p style={{ textAlign: "left", marginLeft: "20%", marginRight: "20%", wordBreak: "break-all", fontSize: "20px" }}><b>status message: </b> {statusMessage}</p>
       <p style={{ textAlign: "left", marginLeft: "20%", marginRight: "20%", wordBreak: "break-all", fontSize: "20px" }}><b>user id: </b> {userId}</p>
 
       <button onClick={() => logout()} style={{ width: "100%", height: 30 }}>Logout</button>
