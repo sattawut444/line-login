@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import liff from '@line/liff';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 function App() {
 
@@ -36,6 +36,10 @@ const runApp = () => {
     setUserId(profile.userId);
   }).catch(err => console.error(err));
 }
+
+useEffect(() => {
+  initLine();
+}, []);
 
   return (
     <div className="App">
