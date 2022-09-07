@@ -46,12 +46,12 @@ return (
       <h1>Line-login</h1>
       <hr/>
       <img src={pictureUrl} width="300px" height="300px"/>
-      <p className='box-data-data : green size-10px'><b>id token: </b> {idToken}</p><hr/>
-      <p className='box-data-data : green size-10px'><b>display name: </b> {displayName}</p><hr/>
-      <p className='box-data-data : green size-10px'><b>status message: </b> {statusMessage}</p><hr/>
-      <p className='box-data-data : green size-10px'><b>user id: </b> {userId}</p>
+      <p className='box-data-data : green size-40px'><b>id token: </b> {idToken}</p><hr/>
+      <p className='box-data-data : green size-40px'><b>display name: </b> {displayName}</p><hr/>
+      <p className='box-data-data : green size-40px'><b>status message: </b> {statusMessage}</p><hr/>
+      <p className='box-data-data : green size-40px'><b>user id: </b> {userId}</p>
 
-      <button className='box-logout : b-green' onClick={() => logout()} style={{ width: "100%", height: 30 }}>Logout</button>
+      <button className='box-logout : b-green size-40px width heigth' onClick={() => logout()} style={{ width: "100%", height: 30 }}>Logout</button>
     </div>
     </header>
   </div>
